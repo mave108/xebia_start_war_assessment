@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/xebia_start_war_assessment/precache-manifest.bf370c60553f6e95e520b7d9e17faf70.js"
+  "/xebia_start_war_assessment/precache-manifest.83f1ff5f4a3e06c86485c3eaf961c3d3.js"
 );
 
 workbox.clientsClaim();

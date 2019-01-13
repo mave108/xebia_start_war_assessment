@@ -13,8 +13,8 @@ class App extends Component {
     return (
       <BrowserRouter  basename={process.env.PUBLIC_URL}>      
       <Switch>     
-      <Route path="/login" component={LoginForm} />
       <Route path="/planet-search" component={Planetsearch} />            
+      <Route path="/" exact component={LoginForm} />
       </Switch>      
     </BrowserRouter>    
     );

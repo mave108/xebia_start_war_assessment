@@ -58,7 +58,7 @@ class Login extends React.Component{
    }
    makeLogout = ()=>{
     _setCookies("Logged_in_user",'',0);
-    this.props.history.push("/login");
+    this.props.history.push("/");
    }
     render(){
   
